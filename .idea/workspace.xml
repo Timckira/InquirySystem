@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="658b2e27-1725-4333-a180-79f2900ddc8c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/jquery/jquery.min.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/js/vue.min.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1syODYADYe4P4XMsrhIYxpeVybh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\刷机\vuetabecx\data" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="658b2e27-1725-4333-a180-79f2900ddc8c" name="Default Changelist" comment="" />
+      <created>1621841243736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621841243736</updated>
+      <workItem from="1621841245047" duration="571000" />
+      <workItem from="1621845501609" duration="1630000" />
+      <workItem from="1621855434612" duration="587000" />
+      <workItem from="1621856140954" duration="893000" />
+      <workItem from="1621902735477" duration="4116000" />
+      <workItem from="1621908278047" duration="7000" />
+      <workItem from="1622075810859" duration="343000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="963" y="206" key="#Inspections" timestamp="1621855807299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="963" y="206" key="#Inspections/0.0.1920.1040/-1920.-75.1920.1040@0.0.1920.1040" timestamp="1621855807299" />
+    <state x="679" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621908331940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621908331940" />
+    <state x="644" y="258" key="run.anything.popup" timestamp="1621845549402">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="258" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621845549402" />
+  </component>
+</project>
