@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+	<meta charset="UTF-8">
+	<title>查询系统</title>
+	<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index/proindex.css" />
+	<script src="js/vue.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/axios.min.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css">
+
+	</style>
+</head>
+<body></body>
+<div style="margin-top: 43px;margin-left: 16px;">
+	<!--<div id="roottable">
+</div> -->
+	<div id="app">
+		<table border="0" cellspacing="0" cellpadding="10" style="width: 100%; text-align: center;margin-top: 40px;">
+			<thead>
+			<div class="button_line">
+				<input type="text" id="filtertxt1" placeholder="请输入关键词">
+				<button class="btn1" id="Search">搜索</button>
+			</div>
+			<tr>
+				<th>单位名称</th>
+				<th>机构备案号</th>
+				<th>单位地址</th>
+				<th>联系人</th>
+				<th>联系电话</th>
+				<th>职业名称</th>
+				<th>职业代码</th>
+				<th>工种/职业方向</th>
+				<th>开展等级</th>
+			</tr>
+			</thead>
+			<tbody id="table_proindex">
+			<tr v-for="value in info" class="second_tr">
+				<td>{{ value.cname}}</td>
+				<td>{{ value.id}}</td>
+				<td>{{ value.address}}</td>
+				<td>{{ value.cperson}}</td>
+				<td>{{ value.tel}}</td>
+				<td>{{ value.wname}}</td>
+				<td>{{ value.wid}}</td>
+				<td>{{ value.twork}}</td>
+				<td>{{ value.lv}}</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+	<script src="js/api.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/Allin.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('#Search').click(function() {
+				var txt = $('#filtertxt1').val();
+				$("table tbody tr")
+						.hide()
+						.filter(":contains('" + txt + "')")
+						.show();
+			})
+		});
+	</script>
+	<!--分页-->
+	<!--			<div class="page-bar">-->
+	<!--				<ul>-->
+	<!--					<li v-if="cur>1"><a v-on:click="cur&#45;&#45;,pageClick()">上一页</a></li>-->
+	<!--					<li v-if="cur==1"><a class="banclick">上一页</a></li>-->
+	<!--					<li v-for="index in indexs" v-bind:class="{ 'active': cur == index}">-->
+	<!--						<a v-on:click="btnClick(index)">{{ index }}</a>-->
+	<!--					</li>-->
+	<!--					<li v-if="cur!=all"><a v-on:click="cur++,pageClick()">下一页</a></li>-->
+	<!--					<li v-if="cur == all"><a class="banclick">下一页</a></li>-->
+	<!--					<li><a>共<i>{{all}}</i>页</a></li>-->
+	<!--				</ul>-->
+	<!--			</div>-->
+</div>
+</body>
+</html>
